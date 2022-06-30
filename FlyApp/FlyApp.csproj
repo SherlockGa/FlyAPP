@@ -46,29 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CamMechanismDesignForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CamMechanismDesignForm.Designer.cs">
-      <DependentUpon>CamMechanismDesignForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SliderCrankInputForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SliderCrankInputForm.Designer.cs">
-      <DependentUpon>SliderCrankInputForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="PlannerCamDesignForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PlannerCamDesignForm.Designer.cs">
       <DependentUpon>PlannerCamDesignForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SliderCrankStartForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SliderCrankStartForm.Designer.cs">
-      <DependentUpon>SliderCrankStartForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -84,12 +66,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CamMechanismDesignForm.resx">
-      <DependentUpon>CamMechanismDesignForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SliderCrankInputForm.resx">
-      <DependentUpon>SliderCrankInputForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="PlannerCamDesignForm.resx">
       <DependentUpon>PlannerCamDesignForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -103,9 +79,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SliderCrankStartForm.resx">
-      <DependentUpon>SliderCrankStartForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -13,3 +13,16 @@ D:\VisualStudioProjects\FlyApp\FlyApp\obj\Debug\FlyApp.CamMechanismDesignForm.re
 D:\VisualStudioProjects\FlyApp\FlyApp\obj\Debug\FlyApp.SliderCrankStartForm.resources
 D:\VisualStudioProjects\FlyApp\FlyApp\obj\Debug\FlyApp.PlannerCamDesignForm.resources
 D:\VisualStudioProjects\FlyApp\FlyApp\obj\Debug\FlyApp.SliderCrankInputForm.resources
+D:\ve450Git\FlyAPP\FlyApp\bin\Debug\FlyApp.exe.config
+D:\ve450Git\FlyAPP\FlyApp\bin\Debug\FlyApp.exe
+D:\ve450Git\FlyAPP\FlyApp\bin\Debug\FlyApp.pdb
+D:\ve450Git\FlyAPP\FlyApp\obj\Debug\FlyApp.csproj.AssemblyReference.cache
+D:\ve450Git\FlyAPP\FlyApp\obj\Debug\FlyApp.csproj.SuggestedBindingRedirects.cache
+D:\ve450Git\FlyAPP\FlyApp\obj\Debug\FlyApp.PlannerCamDesignForm.resources
+D:\ve450Git\FlyAPP\FlyApp\obj\Debug\FlyApp.MainForm.resources
+D:\ve450Git\FlyAPP\FlyApp\obj\Debug\FlyApp.ModelCycleDesignForm.resources
+D:\ve450Git\FlyAPP\FlyApp\obj\Debug\FlyApp.Properties.Resources.resources
+D:\ve450Git\FlyAPP\FlyApp\obj\Debug\FlyApp.csproj.GenerateResource.cache
+D:\ve450Git\FlyAPP\FlyApp\obj\Debug\FlyApp.csproj.CoreCompileInputs.cache
+D:\ve450Git\FlyAPP\FlyApp\obj\Debug\FlyApp.exe
+D:\ve450Git\FlyAPP\FlyApp\obj\Debug\FlyApp.pdb

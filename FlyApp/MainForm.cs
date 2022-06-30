@@ -23,22 +23,16 @@ namespace FlyApp
             modelCycleDesignForm.Show();
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            SliderCrankStartForm startForm = new SliderCrankStartForm();
-            startForm.Show();
-        }
+       
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            CamMechanismDesignForm camMechanismDesignForm = new CamMechanismDesignForm();
-            camMechanismDesignForm.Show();
-        }
+       
 
         private void button4_Click(object sender, EventArgs e)
         {
             PlannerCamDesignForm plannerCamDesignForm = new PlannerCamDesignForm();
             plannerCamDesignForm.Show();
         }
+
+       
     }
 }

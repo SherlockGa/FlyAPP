@@ -15,11 +15,27 @@ namespace FlyApp
         public PlannerCamDesignForm()
         {
             InitializeComponent();
+            this.Load += new EventHandler(this.PlannerCamDesignForm_Load);
         }
-
+        private void PlannerCamDesignForm_Load(object sender, EventArgs e)
+        {
+            SetColumnWidth();
+        }
         private void ExitButton_Click(object sender, EventArgs e)
         {
             this.Close();
         }
+
+        private void SetColumnWidth()
+        {
+            int listwidth = listView1.Width;
+            int columnNum = listView1.Columns.Count;
+            foreach (ColumnHeader i in listView1.Columns)
+            {
+                i.Width = listwidth / columnNum;
+            }
+        }
+
+        
     }
 }
