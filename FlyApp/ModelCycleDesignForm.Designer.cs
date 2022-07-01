@@ -30,6 +30,8 @@ namespace FlyApp
         private void InitializeComponent()
         {
             this.MainPanel = new System.Windows.Forms.Panel();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.label5 = new System.Windows.Forms.Label();
             this.ExitButton = new System.Windows.Forms.Button();
             this.ShowButton = new System.Windows.Forms.Button();
             this.InputButton = new System.Windows.Forms.Button();
@@ -37,79 +39,66 @@ namespace FlyApp
             this.button27 = new System.Windows.Forms.Button();
             this.button28 = new System.Windows.Forms.Button();
             this.textBox27 = new System.Windows.Forms.TextBox();
-            this.comboBox14 = new System.Windows.Forms.ComboBox();
             this.textBox28 = new System.Windows.Forms.TextBox();
             this.panel13 = new System.Windows.Forms.Panel();
             this.button25 = new System.Windows.Forms.Button();
             this.button26 = new System.Windows.Forms.Button();
             this.textBox25 = new System.Windows.Forms.TextBox();
-            this.comboBox13 = new System.Windows.Forms.ComboBox();
             this.textBox26 = new System.Windows.Forms.TextBox();
             this.panel12 = new System.Windows.Forms.Panel();
             this.button23 = new System.Windows.Forms.Button();
             this.button24 = new System.Windows.Forms.Button();
             this.textBox23 = new System.Windows.Forms.TextBox();
-            this.comboBox12 = new System.Windows.Forms.ComboBox();
             this.textBox24 = new System.Windows.Forms.TextBox();
             this.panel11 = new System.Windows.Forms.Panel();
             this.button21 = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
             this.textBox21 = new System.Windows.Forms.TextBox();
-            this.comboBox11 = new System.Windows.Forms.ComboBox();
             this.textBox22 = new System.Windows.Forms.TextBox();
             this.panel10 = new System.Windows.Forms.Panel();
             this.button19 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
             this.textBox19 = new System.Windows.Forms.TextBox();
-            this.comboBox10 = new System.Windows.Forms.ComboBox();
             this.textBox20 = new System.Windows.Forms.TextBox();
             this.panel9 = new System.Windows.Forms.Panel();
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
             this.textBox17 = new System.Windows.Forms.TextBox();
-            this.comboBox9 = new System.Windows.Forms.ComboBox();
             this.textBox18 = new System.Windows.Forms.TextBox();
             this.panel8 = new System.Windows.Forms.Panel();
             this.button15 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
             this.textBox15 = new System.Windows.Forms.TextBox();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
             this.textBox16 = new System.Windows.Forms.TextBox();
             this.panel7 = new System.Windows.Forms.Panel();
             this.button13 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.textBox13 = new System.Windows.Forms.TextBox();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
             this.textBox14 = new System.Windows.Forms.TextBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.textBox11 = new System.Windows.Forms.TextBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.textBox9 = new System.Windows.Forms.TextBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.textBox7 = new System.Windows.Forms.TextBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.textBox5 = new System.Windows.Forms.TextBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -119,11 +108,23 @@ namespace FlyApp
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.textBox29 = new System.Windows.Forms.TextBox();
+            this.textBox30 = new System.Windows.Forms.TextBox();
+            this.textBox31 = new System.Windows.Forms.TextBox();
+            this.textBox32 = new System.Windows.Forms.TextBox();
+            this.textBox33 = new System.Windows.Forms.TextBox();
+            this.textBox34 = new System.Windows.Forms.TextBox();
+            this.textBox35 = new System.Windows.Forms.TextBox();
+            this.textBox36 = new System.Windows.Forms.TextBox();
+            this.textBox37 = new System.Windows.Forms.TextBox();
+            this.textBox38 = new System.Windows.Forms.TextBox();
+            this.textBox39 = new System.Windows.Forms.TextBox();
+            this.textBox40 = new System.Windows.Forms.TextBox();
+            this.textBox41 = new System.Windows.Forms.TextBox();
+            this.textBox42 = new System.Windows.Forms.TextBox();
             this.MainPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.panel14.SuspendLayout();
             this.panel13.SuspendLayout();
             this.panel12.SuspendLayout();
@@ -138,7 +139,6 @@ namespace FlyApp
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // MainPanel
@@ -172,6 +172,37 @@ namespace FlyApp
             this.MainPanel.Size = new System.Drawing.Size(1245, 961);
             this.MainPanel.TabIndex = 0;
             // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Location = new System.Drawing.Point(1057, 250);
+            this.numericUpDown1.Maximum = new decimal(new int[] {
+            14,
+            0,
+            0,
+            0});
+            this.numericUpDown1.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(120, 31);
+            this.numericUpDown1.TabIndex = 22;
+            this.numericUpDown1.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(1013, 209);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(142, 21);
+            this.label5.TabIndex = 21;
+            this.label5.Text = "输入总段数：";
+            // 
             // ExitButton
             // 
             this.ExitButton.Location = new System.Drawing.Point(1036, 878);
@@ -203,10 +234,10 @@ namespace FlyApp
             // panel14
             // 
             this.panel14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel14.Controls.Add(this.textBox42);
             this.panel14.Controls.Add(this.button27);
             this.panel14.Controls.Add(this.button28);
             this.panel14.Controls.Add(this.textBox27);
-            this.panel14.Controls.Add(this.comboBox14);
             this.panel14.Controls.Add(this.textBox28);
             this.panel14.Location = new System.Drawing.Point(24, 847);
             this.panel14.Name = "panel14";
@@ -241,23 +272,6 @@ namespace FlyApp
             this.textBox27.Size = new System.Drawing.Size(159, 33);
             this.textBox27.TabIndex = 2;
             // 
-            // comboBox14
-            // 
-            this.comboBox14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.comboBox14.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox14.FormattingEnabled = true;
-            this.comboBox14.Items.AddRange(new object[] {
-            "30",
-            "60",
-            "90",
-            "120",
-            "150",
-            "180"});
-            this.comboBox14.Location = new System.Drawing.Point(164, 11);
-            this.comboBox14.Name = "comboBox14";
-            this.comboBox14.Size = new System.Drawing.Size(146, 34);
-            this.comboBox14.TabIndex = 1;
-            // 
             // textBox28
             // 
             this.textBox28.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -269,10 +283,10 @@ namespace FlyApp
             // panel13
             // 
             this.panel13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel13.Controls.Add(this.textBox41);
             this.panel13.Controls.Add(this.button25);
             this.panel13.Controls.Add(this.button26);
             this.panel13.Controls.Add(this.textBox25);
-            this.panel13.Controls.Add(this.comboBox13);
             this.panel13.Controls.Add(this.textBox26);
             this.panel13.Location = new System.Drawing.Point(24, 789);
             this.panel13.Name = "panel13";
@@ -307,23 +321,6 @@ namespace FlyApp
             this.textBox25.Size = new System.Drawing.Size(159, 33);
             this.textBox25.TabIndex = 2;
             // 
-            // comboBox13
-            // 
-            this.comboBox13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.comboBox13.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox13.FormattingEnabled = true;
-            this.comboBox13.Items.AddRange(new object[] {
-            "30",
-            "60",
-            "90",
-            "120",
-            "150",
-            "180"});
-            this.comboBox13.Location = new System.Drawing.Point(164, 11);
-            this.comboBox13.Name = "comboBox13";
-            this.comboBox13.Size = new System.Drawing.Size(146, 34);
-            this.comboBox13.TabIndex = 1;
-            // 
             // textBox26
             // 
             this.textBox26.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -335,10 +332,10 @@ namespace FlyApp
             // panel12
             // 
             this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel12.Controls.Add(this.textBox40);
             this.panel12.Controls.Add(this.button23);
             this.panel12.Controls.Add(this.button24);
             this.panel12.Controls.Add(this.textBox23);
-            this.panel12.Controls.Add(this.comboBox12);
             this.panel12.Controls.Add(this.textBox24);
             this.panel12.Location = new System.Drawing.Point(24, 731);
             this.panel12.Name = "panel12";
@@ -373,23 +370,6 @@ namespace FlyApp
             this.textBox23.Size = new System.Drawing.Size(159, 33);
             this.textBox23.TabIndex = 2;
             // 
-            // comboBox12
-            // 
-            this.comboBox12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.comboBox12.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox12.FormattingEnabled = true;
-            this.comboBox12.Items.AddRange(new object[] {
-            "30",
-            "60",
-            "90",
-            "120",
-            "150",
-            "180"});
-            this.comboBox12.Location = new System.Drawing.Point(164, 11);
-            this.comboBox12.Name = "comboBox12";
-            this.comboBox12.Size = new System.Drawing.Size(146, 34);
-            this.comboBox12.TabIndex = 1;
-            // 
             // textBox24
             // 
             this.textBox24.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -401,10 +381,10 @@ namespace FlyApp
             // panel11
             // 
             this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel11.Controls.Add(this.textBox39);
             this.panel11.Controls.Add(this.button21);
             this.panel11.Controls.Add(this.button22);
             this.panel11.Controls.Add(this.textBox21);
-            this.panel11.Controls.Add(this.comboBox11);
             this.panel11.Controls.Add(this.textBox22);
             this.panel11.Location = new System.Drawing.Point(24, 673);
             this.panel11.Name = "panel11";
@@ -439,23 +419,6 @@ namespace FlyApp
             this.textBox21.Size = new System.Drawing.Size(159, 33);
             this.textBox21.TabIndex = 2;
             // 
-            // comboBox11
-            // 
-            this.comboBox11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.comboBox11.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox11.FormattingEnabled = true;
-            this.comboBox11.Items.AddRange(new object[] {
-            "30",
-            "60",
-            "90",
-            "120",
-            "150",
-            "180"});
-            this.comboBox11.Location = new System.Drawing.Point(164, 11);
-            this.comboBox11.Name = "comboBox11";
-            this.comboBox11.Size = new System.Drawing.Size(146, 34);
-            this.comboBox11.TabIndex = 1;
-            // 
             // textBox22
             // 
             this.textBox22.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -467,10 +430,10 @@ namespace FlyApp
             // panel10
             // 
             this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel10.Controls.Add(this.textBox38);
             this.panel10.Controls.Add(this.button19);
             this.panel10.Controls.Add(this.button20);
             this.panel10.Controls.Add(this.textBox19);
-            this.panel10.Controls.Add(this.comboBox10);
             this.panel10.Controls.Add(this.textBox20);
             this.panel10.Location = new System.Drawing.Point(24, 615);
             this.panel10.Name = "panel10";
@@ -505,23 +468,6 @@ namespace FlyApp
             this.textBox19.Size = new System.Drawing.Size(159, 33);
             this.textBox19.TabIndex = 2;
             // 
-            // comboBox10
-            // 
-            this.comboBox10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.comboBox10.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox10.FormattingEnabled = true;
-            this.comboBox10.Items.AddRange(new object[] {
-            "30",
-            "60",
-            "90",
-            "120",
-            "150",
-            "180"});
-            this.comboBox10.Location = new System.Drawing.Point(164, 11);
-            this.comboBox10.Name = "comboBox10";
-            this.comboBox10.Size = new System.Drawing.Size(146, 34);
-            this.comboBox10.TabIndex = 1;
-            // 
             // textBox20
             // 
             this.textBox20.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -533,10 +479,10 @@ namespace FlyApp
             // panel9
             // 
             this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel9.Controls.Add(this.textBox37);
             this.panel9.Controls.Add(this.button17);
             this.panel9.Controls.Add(this.button18);
             this.panel9.Controls.Add(this.textBox17);
-            this.panel9.Controls.Add(this.comboBox9);
             this.panel9.Controls.Add(this.textBox18);
             this.panel9.Location = new System.Drawing.Point(24, 557);
             this.panel9.Name = "panel9";
@@ -571,23 +517,6 @@ namespace FlyApp
             this.textBox17.Size = new System.Drawing.Size(159, 33);
             this.textBox17.TabIndex = 2;
             // 
-            // comboBox9
-            // 
-            this.comboBox9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.comboBox9.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox9.FormattingEnabled = true;
-            this.comboBox9.Items.AddRange(new object[] {
-            "30",
-            "60",
-            "90",
-            "120",
-            "150",
-            "180"});
-            this.comboBox9.Location = new System.Drawing.Point(164, 11);
-            this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(146, 34);
-            this.comboBox9.TabIndex = 1;
-            // 
             // textBox18
             // 
             this.textBox18.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -599,10 +528,10 @@ namespace FlyApp
             // panel8
             // 
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel8.Controls.Add(this.textBox36);
             this.panel8.Controls.Add(this.button15);
             this.panel8.Controls.Add(this.button16);
             this.panel8.Controls.Add(this.textBox15);
-            this.panel8.Controls.Add(this.comboBox8);
             this.panel8.Controls.Add(this.textBox16);
             this.panel8.Location = new System.Drawing.Point(24, 499);
             this.panel8.Name = "panel8";
@@ -637,23 +566,6 @@ namespace FlyApp
             this.textBox15.Size = new System.Drawing.Size(159, 33);
             this.textBox15.TabIndex = 2;
             // 
-            // comboBox8
-            // 
-            this.comboBox8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.comboBox8.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Items.AddRange(new object[] {
-            "30",
-            "60",
-            "90",
-            "120",
-            "150",
-            "180"});
-            this.comboBox8.Location = new System.Drawing.Point(164, 11);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(146, 34);
-            this.comboBox8.TabIndex = 1;
-            // 
             // textBox16
             // 
             this.textBox16.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -665,10 +577,10 @@ namespace FlyApp
             // panel7
             // 
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel7.Controls.Add(this.textBox35);
             this.panel7.Controls.Add(this.button13);
             this.panel7.Controls.Add(this.button14);
             this.panel7.Controls.Add(this.textBox13);
-            this.panel7.Controls.Add(this.comboBox7);
             this.panel7.Controls.Add(this.textBox14);
             this.panel7.Location = new System.Drawing.Point(24, 441);
             this.panel7.Name = "panel7";
@@ -703,23 +615,6 @@ namespace FlyApp
             this.textBox13.Size = new System.Drawing.Size(159, 33);
             this.textBox13.TabIndex = 2;
             // 
-            // comboBox7
-            // 
-            this.comboBox7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.comboBox7.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Items.AddRange(new object[] {
-            "30",
-            "60",
-            "90",
-            "120",
-            "150",
-            "180"});
-            this.comboBox7.Location = new System.Drawing.Point(164, 11);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(146, 34);
-            this.comboBox7.TabIndex = 1;
-            // 
             // textBox14
             // 
             this.textBox14.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -731,10 +626,10 @@ namespace FlyApp
             // panel6
             // 
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel6.Controls.Add(this.textBox34);
             this.panel6.Controls.Add(this.button11);
             this.panel6.Controls.Add(this.button12);
             this.panel6.Controls.Add(this.textBox11);
-            this.panel6.Controls.Add(this.comboBox6);
             this.panel6.Controls.Add(this.textBox12);
             this.panel6.Location = new System.Drawing.Point(24, 383);
             this.panel6.Name = "panel6";
@@ -769,23 +664,6 @@ namespace FlyApp
             this.textBox11.Size = new System.Drawing.Size(159, 33);
             this.textBox11.TabIndex = 2;
             // 
-            // comboBox6
-            // 
-            this.comboBox6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.comboBox6.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
-            "30",
-            "60",
-            "90",
-            "120",
-            "150",
-            "180"});
-            this.comboBox6.Location = new System.Drawing.Point(164, 11);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(146, 34);
-            this.comboBox6.TabIndex = 1;
-            // 
             // textBox12
             // 
             this.textBox12.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -797,10 +675,10 @@ namespace FlyApp
             // panel5
             // 
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel5.Controls.Add(this.textBox33);
             this.panel5.Controls.Add(this.button9);
             this.panel5.Controls.Add(this.button10);
             this.panel5.Controls.Add(this.textBox9);
-            this.panel5.Controls.Add(this.comboBox5);
             this.panel5.Controls.Add(this.textBox10);
             this.panel5.Location = new System.Drawing.Point(24, 325);
             this.panel5.Name = "panel5";
@@ -835,23 +713,6 @@ namespace FlyApp
             this.textBox9.Size = new System.Drawing.Size(159, 33);
             this.textBox9.TabIndex = 2;
             // 
-            // comboBox5
-            // 
-            this.comboBox5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.comboBox5.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
-            "30",
-            "60",
-            "90",
-            "120",
-            "150",
-            "180"});
-            this.comboBox5.Location = new System.Drawing.Point(164, 11);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(146, 34);
-            this.comboBox5.TabIndex = 1;
-            // 
             // textBox10
             // 
             this.textBox10.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -863,10 +724,10 @@ namespace FlyApp
             // panel4
             // 
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel4.Controls.Add(this.textBox32);
             this.panel4.Controls.Add(this.button7);
             this.panel4.Controls.Add(this.button8);
             this.panel4.Controls.Add(this.textBox7);
-            this.panel4.Controls.Add(this.comboBox4);
             this.panel4.Controls.Add(this.textBox8);
             this.panel4.Location = new System.Drawing.Point(24, 267);
             this.panel4.Name = "panel4";
@@ -901,23 +762,6 @@ namespace FlyApp
             this.textBox7.Size = new System.Drawing.Size(159, 33);
             this.textBox7.TabIndex = 2;
             // 
-            // comboBox4
-            // 
-            this.comboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.comboBox4.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
-            "30",
-            "60",
-            "90",
-            "120",
-            "150",
-            "180"});
-            this.comboBox4.Location = new System.Drawing.Point(164, 11);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(146, 34);
-            this.comboBox4.TabIndex = 1;
-            // 
             // textBox8
             // 
             this.textBox8.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -929,10 +773,10 @@ namespace FlyApp
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel3.Controls.Add(this.textBox31);
             this.panel3.Controls.Add(this.button5);
             this.panel3.Controls.Add(this.button6);
             this.panel3.Controls.Add(this.textBox5);
-            this.panel3.Controls.Add(this.comboBox3);
             this.panel3.Controls.Add(this.textBox6);
             this.panel3.Location = new System.Drawing.Point(24, 209);
             this.panel3.Name = "panel3";
@@ -967,23 +811,6 @@ namespace FlyApp
             this.textBox5.Size = new System.Drawing.Size(159, 33);
             this.textBox5.TabIndex = 2;
             // 
-            // comboBox3
-            // 
-            this.comboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.comboBox3.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "30",
-            "60",
-            "90",
-            "120",
-            "150",
-            "180"});
-            this.comboBox3.Location = new System.Drawing.Point(164, 11);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(146, 34);
-            this.comboBox3.TabIndex = 1;
-            // 
             // textBox6
             // 
             this.textBox6.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -995,10 +822,10 @@ namespace FlyApp
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.textBox30);
             this.panel2.Controls.Add(this.button3);
             this.panel2.Controls.Add(this.button4);
             this.panel2.Controls.Add(this.textBox3);
-            this.panel2.Controls.Add(this.comboBox2);
             this.panel2.Controls.Add(this.textBox4);
             this.panel2.Location = new System.Drawing.Point(24, 151);
             this.panel2.Name = "panel2";
@@ -1032,23 +859,6 @@ namespace FlyApp
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(159, 33);
             this.textBox3.TabIndex = 2;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.comboBox2.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "30",
-            "60",
-            "90",
-            "120",
-            "150",
-            "180"});
-            this.comboBox2.Location = new System.Drawing.Point(164, 11);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(146, 34);
-            this.comboBox2.TabIndex = 1;
             // 
             // textBox4
             // 
@@ -1101,10 +911,10 @@ namespace FlyApp
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.textBox29);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.textBox2);
             this.panel1.Location = new System.Drawing.Point(24, 93);
             this.panel1.Name = "panel1";
@@ -1139,23 +949,6 @@ namespace FlyApp
             this.textBox1.Size = new System.Drawing.Size(159, 33);
             this.textBox1.TabIndex = 2;
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.comboBox1.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "30",
-            "60",
-            "90",
-            "120",
-            "150",
-            "180"});
-            this.comboBox1.Location = new System.Drawing.Point(164, 11);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(146, 34);
-            this.comboBox1.TabIndex = 1;
-            // 
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1164,36 +957,117 @@ namespace FlyApp
             this.textBox2.Size = new System.Drawing.Size(87, 33);
             this.textBox2.TabIndex = 0;
             // 
-            // label5
+            // textBox29
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(1013, 209);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(142, 21);
-            this.label5.TabIndex = 21;
-            this.label5.Text = "输入总段数：";
+            this.textBox29.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox29.Location = new System.Drawing.Point(158, 9);
+            this.textBox29.Name = "textBox29";
+            this.textBox29.Size = new System.Drawing.Size(159, 33);
+            this.textBox29.TabIndex = 5;
             // 
-            // numericUpDown1
+            // textBox30
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(1057, 250);
-            this.numericUpDown1.Maximum = new decimal(new int[] {
-            14,
-            0,
-            0,
-            0});
-            this.numericUpDown1.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 31);
-            this.numericUpDown1.TabIndex = 22;
-            this.numericUpDown1.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            this.textBox30.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox30.Location = new System.Drawing.Point(158, 12);
+            this.textBox30.Name = "textBox30";
+            this.textBox30.Size = new System.Drawing.Size(159, 33);
+            this.textBox30.TabIndex = 5;
+            // 
+            // textBox31
+            // 
+            this.textBox31.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox31.Location = new System.Drawing.Point(158, 9);
+            this.textBox31.Name = "textBox31";
+            this.textBox31.Size = new System.Drawing.Size(159, 33);
+            this.textBox31.TabIndex = 5;
+            // 
+            // textBox32
+            // 
+            this.textBox32.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox32.Location = new System.Drawing.Point(158, 9);
+            this.textBox32.Name = "textBox32";
+            this.textBox32.Size = new System.Drawing.Size(159, 33);
+            this.textBox32.TabIndex = 5;
+            // 
+            // textBox33
+            // 
+            this.textBox33.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox33.Location = new System.Drawing.Point(158, 9);
+            this.textBox33.Name = "textBox33";
+            this.textBox33.Size = new System.Drawing.Size(159, 33);
+            this.textBox33.TabIndex = 5;
+            // 
+            // textBox34
+            // 
+            this.textBox34.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox34.Location = new System.Drawing.Point(158, 9);
+            this.textBox34.Name = "textBox34";
+            this.textBox34.Size = new System.Drawing.Size(159, 33);
+            this.textBox34.TabIndex = 5;
+            // 
+            // textBox35
+            // 
+            this.textBox35.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox35.Location = new System.Drawing.Point(158, 9);
+            this.textBox35.Name = "textBox35";
+            this.textBox35.Size = new System.Drawing.Size(159, 33);
+            this.textBox35.TabIndex = 5;
+            // 
+            // textBox36
+            // 
+            this.textBox36.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox36.Location = new System.Drawing.Point(158, 9);
+            this.textBox36.Name = "textBox36";
+            this.textBox36.Size = new System.Drawing.Size(159, 33);
+            this.textBox36.TabIndex = 5;
+            // 
+            // textBox37
+            // 
+            this.textBox37.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox37.Location = new System.Drawing.Point(158, 9);
+            this.textBox37.Name = "textBox37";
+            this.textBox37.Size = new System.Drawing.Size(159, 33);
+            this.textBox37.TabIndex = 5;
+            // 
+            // textBox38
+            // 
+            this.textBox38.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox38.Location = new System.Drawing.Point(158, 9);
+            this.textBox38.Name = "textBox38";
+            this.textBox38.Size = new System.Drawing.Size(159, 33);
+            this.textBox38.TabIndex = 5;
+            // 
+            // textBox39
+            // 
+            this.textBox39.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox39.Location = new System.Drawing.Point(158, 9);
+            this.textBox39.Name = "textBox39";
+            this.textBox39.Size = new System.Drawing.Size(159, 33);
+            this.textBox39.TabIndex = 5;
+            // 
+            // textBox40
+            // 
+            this.textBox40.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox40.Location = new System.Drawing.Point(158, 9);
+            this.textBox40.Name = "textBox40";
+            this.textBox40.Size = new System.Drawing.Size(159, 33);
+            this.textBox40.TabIndex = 5;
+            // 
+            // textBox41
+            // 
+            this.textBox41.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox41.Location = new System.Drawing.Point(158, 9);
+            this.textBox41.Name = "textBox41";
+            this.textBox41.Size = new System.Drawing.Size(159, 33);
+            this.textBox41.TabIndex = 23;
+            // 
+            // textBox42
+            // 
+            this.textBox42.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox42.Location = new System.Drawing.Point(158, 9);
+            this.textBox42.Name = "textBox42";
+            this.textBox42.Size = new System.Drawing.Size(159, 33);
+            this.textBox42.TabIndex = 5;
             // 
             // ModelCycleDesignForm
             // 
@@ -1207,6 +1081,7 @@ namespace FlyApp
             this.Text = "运动循环图设计";
             this.MainPanel.ResumeLayout(false);
             this.MainPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.panel14.ResumeLayout(false);
             this.panel14.PerformLayout();
             this.panel13.ResumeLayout(false);
@@ -1235,7 +1110,6 @@ namespace FlyApp
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1246,7 +1120,6 @@ namespace FlyApp
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
@@ -1257,84 +1130,85 @@ namespace FlyApp
         private System.Windows.Forms.Button button27;
         private System.Windows.Forms.Button button28;
         private System.Windows.Forms.TextBox textBox27;
-        private System.Windows.Forms.ComboBox comboBox14;
         private System.Windows.Forms.TextBox textBox28;
         private System.Windows.Forms.Panel panel13;
         private System.Windows.Forms.Button button25;
         private System.Windows.Forms.Button button26;
         private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.ComboBox comboBox13;
         private System.Windows.Forms.TextBox textBox26;
         private System.Windows.Forms.Panel panel12;
         private System.Windows.Forms.Button button23;
         private System.Windows.Forms.Button button24;
         private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.ComboBox comboBox12;
         private System.Windows.Forms.TextBox textBox24;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Button button21;
         private System.Windows.Forms.Button button22;
         private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.ComboBox comboBox11;
         private System.Windows.Forms.TextBox textBox22;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Button button19;
         private System.Windows.Forms.Button button20;
         private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.ComboBox comboBox10;
         private System.Windows.Forms.TextBox textBox20;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.ComboBox comboBox9;
         private System.Windows.Forms.TextBox textBox18;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.ComboBox comboBox8;
         private System.Windows.Forms.TextBox textBox16;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.ComboBox comboBox7;
         private System.Windows.Forms.TextBox textBox14;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.ComboBox comboBox6;
         private System.Windows.Forms.TextBox textBox12;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.ComboBox comboBox5;
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.ComboBox comboBox4;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Button ExitButton;
         private System.Windows.Forms.Button ShowButton;
         private System.Windows.Forms.Button InputButton;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.TextBox textBox42;
+        private System.Windows.Forms.TextBox textBox41;
+        private System.Windows.Forms.TextBox textBox40;
+        private System.Windows.Forms.TextBox textBox39;
+        private System.Windows.Forms.TextBox textBox38;
+        private System.Windows.Forms.TextBox textBox37;
+        private System.Windows.Forms.TextBox textBox36;
+        private System.Windows.Forms.TextBox textBox35;
+        private System.Windows.Forms.TextBox textBox34;
+        private System.Windows.Forms.TextBox textBox33;
+        private System.Windows.Forms.TextBox textBox32;
+        private System.Windows.Forms.TextBox textBox31;
+        private System.Windows.Forms.TextBox textBox30;
+        private System.Windows.Forms.TextBox textBox29;
     }
 }
