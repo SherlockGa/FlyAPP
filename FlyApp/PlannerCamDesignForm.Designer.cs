@@ -65,7 +65,7 @@ namespace FlyApp
             // 
             // ExitButton
             // 
-            this.ExitButton.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.ExitButton.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.ExitButton.Location = new System.Drawing.Point(57, 734);
             this.ExitButton.Name = "ExitButton";
             this.ExitButton.Size = new System.Drawing.Size(171, 59);
@@ -76,7 +76,7 @@ namespace FlyApp
             // 
             // MotionButton
             // 
-            this.MotionButton.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.MotionButton.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.MotionButton.Location = new System.Drawing.Point(57, 609);
             this.MotionButton.Name = "MotionButton";
             this.MotionButton.Size = new System.Drawing.Size(171, 59);
@@ -86,7 +86,7 @@ namespace FlyApp
             // 
             // ImageButton
             // 
-            this.ImageButton.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.ImageButton.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.ImageButton.Location = new System.Drawing.Point(57, 489);
             this.ImageButton.Name = "ImageButton";
             this.ImageButton.Size = new System.Drawing.Size(171, 59);
@@ -96,7 +96,7 @@ namespace FlyApp
             // 
             // DataButton3
             // 
-            this.DataButton3.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.DataButton3.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.DataButton3.Location = new System.Drawing.Point(57, 373);
             this.DataButton3.Name = "DataButton3";
             this.DataButton3.Size = new System.Drawing.Size(171, 59);
@@ -106,7 +106,7 @@ namespace FlyApp
             // 
             // DataButton2
             // 
-            this.DataButton2.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.DataButton2.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.DataButton2.Location = new System.Drawing.Point(57, 263);
             this.DataButton2.Name = "DataButton2";
             this.DataButton2.Size = new System.Drawing.Size(171, 59);
@@ -126,6 +126,7 @@ namespace FlyApp
             this.columnHeader4,
             this.columnHeader5,
             this.columnHeader6});
+            this.listView1.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView1.FullRowSelect = true;
             this.listView1.GridLines = true;
             this.listView1.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
@@ -169,7 +170,7 @@ namespace FlyApp
             // 
             // DataButton1
             // 
-            this.DataButton1.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.DataButton1.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.DataButton1.Location = new System.Drawing.Point(57, 155);
             this.DataButton1.Name = "DataButton1";
             this.DataButton1.Size = new System.Drawing.Size(171, 59);
@@ -179,7 +180,7 @@ namespace FlyApp
             // 
             // ChooseButton
             // 
-            this.ChooseButton.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.ChooseButton.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.ChooseButton.Location = new System.Drawing.Point(57, 40);
             this.ChooseButton.Name = "ChooseButton";
             this.ChooseButton.Size = new System.Drawing.Size(171, 59);

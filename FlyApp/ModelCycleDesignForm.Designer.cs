@@ -36,66 +36,79 @@ namespace FlyApp
             this.ShowButton = new System.Windows.Forms.Button();
             this.InputButton = new System.Windows.Forms.Button();
             this.panel14 = new System.Windows.Forms.Panel();
+            this.textBox42 = new System.Windows.Forms.TextBox();
             this.button27 = new System.Windows.Forms.Button();
             this.button28 = new System.Windows.Forms.Button();
             this.textBox27 = new System.Windows.Forms.TextBox();
             this.textBox28 = new System.Windows.Forms.TextBox();
             this.panel13 = new System.Windows.Forms.Panel();
+            this.textBox41 = new System.Windows.Forms.TextBox();
             this.button25 = new System.Windows.Forms.Button();
             this.button26 = new System.Windows.Forms.Button();
             this.textBox25 = new System.Windows.Forms.TextBox();
             this.textBox26 = new System.Windows.Forms.TextBox();
             this.panel12 = new System.Windows.Forms.Panel();
+            this.textBox40 = new System.Windows.Forms.TextBox();
             this.button23 = new System.Windows.Forms.Button();
             this.button24 = new System.Windows.Forms.Button();
             this.textBox23 = new System.Windows.Forms.TextBox();
             this.textBox24 = new System.Windows.Forms.TextBox();
             this.panel11 = new System.Windows.Forms.Panel();
+            this.textBox39 = new System.Windows.Forms.TextBox();
             this.button21 = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
             this.textBox21 = new System.Windows.Forms.TextBox();
             this.textBox22 = new System.Windows.Forms.TextBox();
             this.panel10 = new System.Windows.Forms.Panel();
+            this.textBox38 = new System.Windows.Forms.TextBox();
             this.button19 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
             this.textBox19 = new System.Windows.Forms.TextBox();
             this.textBox20 = new System.Windows.Forms.TextBox();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.textBox37 = new System.Windows.Forms.TextBox();
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
             this.textBox17 = new System.Windows.Forms.TextBox();
             this.textBox18 = new System.Windows.Forms.TextBox();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.textBox36 = new System.Windows.Forms.TextBox();
             this.button15 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.textBox16 = new System.Windows.Forms.TextBox();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.textBox35 = new System.Windows.Forms.TextBox();
             this.button13 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.textBox14 = new System.Windows.Forms.TextBox();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.textBox34 = new System.Windows.Forms.TextBox();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.textBox33 = new System.Windows.Forms.TextBox();
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.textBox32 = new System.Windows.Forms.TextBox();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.textBox31 = new System.Windows.Forms.TextBox();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.textBox30 = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -105,24 +118,11 @@ namespace FlyApp
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.textBox29 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox29 = new System.Windows.Forms.TextBox();
-            this.textBox30 = new System.Windows.Forms.TextBox();
-            this.textBox31 = new System.Windows.Forms.TextBox();
-            this.textBox32 = new System.Windows.Forms.TextBox();
-            this.textBox33 = new System.Windows.Forms.TextBox();
-            this.textBox34 = new System.Windows.Forms.TextBox();
-            this.textBox35 = new System.Windows.Forms.TextBox();
-            this.textBox36 = new System.Windows.Forms.TextBox();
-            this.textBox37 = new System.Windows.Forms.TextBox();
-            this.textBox38 = new System.Windows.Forms.TextBox();
-            this.textBox39 = new System.Windows.Forms.TextBox();
-            this.textBox40 = new System.Windows.Forms.TextBox();
-            this.textBox41 = new System.Windows.Forms.TextBox();
-            this.textBox42 = new System.Windows.Forms.TextBox();
             this.MainPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.panel14.SuspendLayout();
@@ -166,7 +166,7 @@ namespace FlyApp
             this.MainPanel.Controls.Add(this.label2);
             this.MainPanel.Controls.Add(this.label1);
             this.MainPanel.Controls.Add(this.panel1);
-            this.MainPanel.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.MainPanel.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.MainPanel.Location = new System.Drawing.Point(0, 0);
             this.MainPanel.Name = "MainPanel";
             this.MainPanel.Size = new System.Drawing.Size(1245, 961);
@@ -174,7 +174,7 @@ namespace FlyApp
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(1057, 250);
+            this.numericUpDown1.Location = new System.Drawing.Point(1069, 103);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             14,
             0,
@@ -186,28 +186,30 @@ namespace FlyApp
             0,
             0});
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 31);
+            this.numericUpDown1.Size = new System.Drawing.Size(138, 31);
             this.numericUpDown1.TabIndex = 22;
             this.numericUpDown1.Value = new decimal(new int[] {
             1,
             0,
             0,
             0});
+            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(1013, 209);
+            this.label5.Font = new System.Drawing.Font("DengXian", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label5.Location = new System.Drawing.Point(1008, 44);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(142, 21);
+            this.label5.Size = new System.Drawing.Size(136, 22);
             this.label5.TabIndex = 21;
             this.label5.Text = "输入总段数：";
             // 
             // ExitButton
             // 
-            this.ExitButton.Location = new System.Drawing.Point(1036, 878);
+            this.ExitButton.Location = new System.Drawing.Point(1036, 830);
             this.ExitButton.Name = "ExitButton";
-            this.ExitButton.Size = new System.Drawing.Size(171, 59);
+            this.ExitButton.Size = new System.Drawing.Size(171, 60);
             this.ExitButton.TabIndex = 20;
             this.ExitButton.Text = "退      出";
             this.ExitButton.UseVisualStyleBackColor = true;
@@ -215,18 +217,18 @@ namespace FlyApp
             // 
             // ShowButton
             // 
-            this.ShowButton.Location = new System.Drawing.Point(1036, 615);
+            this.ShowButton.Location = new System.Drawing.Point(1036, 584);
             this.ShowButton.Name = "ShowButton";
-            this.ShowButton.Size = new System.Drawing.Size(171, 59);
+            this.ShowButton.Size = new System.Drawing.Size(171, 60);
             this.ShowButton.TabIndex = 19;
             this.ShowButton.Text = "线 图 表 示";
             this.ShowButton.UseVisualStyleBackColor = true;
             // 
             // InputButton
             // 
-            this.InputButton.Location = new System.Drawing.Point(1036, 338);
+            this.InputButton.Location = new System.Drawing.Point(1036, 330);
             this.InputButton.Name = "InputButton";
-            this.InputButton.Size = new System.Drawing.Size(171, 59);
+            this.InputButton.Size = new System.Drawing.Size(171, 60);
             this.InputButton.TabIndex = 18;
             this.InputButton.Text = "设置总体参数";
             this.InputButton.UseVisualStyleBackColor = true;
@@ -244,20 +246,29 @@ namespace FlyApp
             this.panel14.Size = new System.Drawing.Size(966, 52);
             this.panel14.TabIndex = 17;
             // 
+            // textBox42
+            // 
+            this.textBox42.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox42.Location = new System.Drawing.Point(158, 8);
+            this.textBox42.Name = "textBox42";
+            this.textBox42.Size = new System.Drawing.Size(158, 33);
+            this.textBox42.TabIndex = 5;
+            // 
             // button27
             // 
-            this.button27.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button27.Location = new System.Drawing.Point(813, 5);
+            this.button27.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button27.Location = new System.Drawing.Point(813, 6);
             this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(127, 39);
+            this.button27.Size = new System.Drawing.Size(128, 39);
             this.button27.TabIndex = 4;
             this.button27.Text = "设    定";
             this.button27.UseVisualStyleBackColor = true;
+            this.button27.Click += new System.EventHandler(this.button27_Click);
             // 
             // button28
             // 
-            this.button28.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button28.Location = new System.Drawing.Point(613, 3);
+            this.button28.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button28.Location = new System.Drawing.Point(614, 3);
             this.button28.Name = "button28";
             this.button28.Size = new System.Drawing.Size(138, 42);
             this.button28.TabIndex = 3;
@@ -267,17 +278,17 @@ namespace FlyApp
             // textBox27
             // 
             this.textBox27.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox27.Location = new System.Drawing.Point(372, 9);
+            this.textBox27.Location = new System.Drawing.Point(372, 8);
             this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(159, 33);
+            this.textBox27.Size = new System.Drawing.Size(158, 33);
             this.textBox27.TabIndex = 2;
             // 
             // textBox28
             // 
             this.textBox28.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox28.Location = new System.Drawing.Point(20, 9);
+            this.textBox28.Location = new System.Drawing.Point(20, 8);
             this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(87, 33);
+            this.textBox28.Size = new System.Drawing.Size(86, 33);
             this.textBox28.TabIndex = 0;
             // 
             // panel13
@@ -293,20 +304,29 @@ namespace FlyApp
             this.panel13.Size = new System.Drawing.Size(966, 52);
             this.panel13.TabIndex = 16;
             // 
+            // textBox41
+            // 
+            this.textBox41.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox41.Location = new System.Drawing.Point(158, 8);
+            this.textBox41.Name = "textBox41";
+            this.textBox41.Size = new System.Drawing.Size(158, 33);
+            this.textBox41.TabIndex = 23;
+            // 
             // button25
             // 
-            this.button25.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button25.Location = new System.Drawing.Point(813, 5);
+            this.button25.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button25.Location = new System.Drawing.Point(813, 6);
             this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(127, 39);
+            this.button25.Size = new System.Drawing.Size(128, 39);
             this.button25.TabIndex = 4;
             this.button25.Text = "设    定";
             this.button25.UseVisualStyleBackColor = true;
+            this.button25.Click += new System.EventHandler(this.button25_Click);
             // 
             // button26
             // 
-            this.button26.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button26.Location = new System.Drawing.Point(613, 3);
+            this.button26.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button26.Location = new System.Drawing.Point(614, 3);
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(138, 42);
             this.button26.TabIndex = 3;
@@ -316,17 +336,17 @@ namespace FlyApp
             // textBox25
             // 
             this.textBox25.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox25.Location = new System.Drawing.Point(372, 9);
+            this.textBox25.Location = new System.Drawing.Point(372, 8);
             this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(159, 33);
+            this.textBox25.Size = new System.Drawing.Size(158, 33);
             this.textBox25.TabIndex = 2;
             // 
             // textBox26
             // 
             this.textBox26.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox26.Location = new System.Drawing.Point(20, 9);
+            this.textBox26.Location = new System.Drawing.Point(20, 8);
             this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(87, 33);
+            this.textBox26.Size = new System.Drawing.Size(86, 33);
             this.textBox26.TabIndex = 0;
             // 
             // panel12
@@ -342,20 +362,29 @@ namespace FlyApp
             this.panel12.Size = new System.Drawing.Size(966, 52);
             this.panel12.TabIndex = 15;
             // 
+            // textBox40
+            // 
+            this.textBox40.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox40.Location = new System.Drawing.Point(158, 8);
+            this.textBox40.Name = "textBox40";
+            this.textBox40.Size = new System.Drawing.Size(158, 33);
+            this.textBox40.TabIndex = 5;
+            // 
             // button23
             // 
-            this.button23.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button23.Location = new System.Drawing.Point(813, 5);
+            this.button23.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button23.Location = new System.Drawing.Point(813, 6);
             this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(127, 39);
+            this.button23.Size = new System.Drawing.Size(128, 39);
             this.button23.TabIndex = 4;
             this.button23.Text = "设    定";
             this.button23.UseVisualStyleBackColor = true;
+            this.button23.Click += new System.EventHandler(this.button23_Click);
             // 
             // button24
             // 
-            this.button24.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button24.Location = new System.Drawing.Point(613, 3);
+            this.button24.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button24.Location = new System.Drawing.Point(614, 3);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(138, 42);
             this.button24.TabIndex = 3;
@@ -365,17 +394,17 @@ namespace FlyApp
             // textBox23
             // 
             this.textBox23.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox23.Location = new System.Drawing.Point(372, 9);
+            this.textBox23.Location = new System.Drawing.Point(372, 8);
             this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(159, 33);
+            this.textBox23.Size = new System.Drawing.Size(158, 33);
             this.textBox23.TabIndex = 2;
             // 
             // textBox24
             // 
             this.textBox24.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox24.Location = new System.Drawing.Point(20, 9);
+            this.textBox24.Location = new System.Drawing.Point(20, 8);
             this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(87, 33);
+            this.textBox24.Size = new System.Drawing.Size(86, 33);
             this.textBox24.TabIndex = 0;
             // 
             // panel11
@@ -391,20 +420,29 @@ namespace FlyApp
             this.panel11.Size = new System.Drawing.Size(966, 52);
             this.panel11.TabIndex = 14;
             // 
+            // textBox39
+            // 
+            this.textBox39.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox39.Location = new System.Drawing.Point(158, 8);
+            this.textBox39.Name = "textBox39";
+            this.textBox39.Size = new System.Drawing.Size(158, 33);
+            this.textBox39.TabIndex = 5;
+            // 
             // button21
             // 
-            this.button21.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button21.Location = new System.Drawing.Point(813, 5);
+            this.button21.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button21.Location = new System.Drawing.Point(813, 6);
             this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(127, 39);
+            this.button21.Size = new System.Drawing.Size(128, 39);
             this.button21.TabIndex = 4;
             this.button21.Text = "设    定";
             this.button21.UseVisualStyleBackColor = true;
+            this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
             // button22
             // 
-            this.button22.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button22.Location = new System.Drawing.Point(613, 3);
+            this.button22.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button22.Location = new System.Drawing.Point(614, 3);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(138, 42);
             this.button22.TabIndex = 3;
@@ -414,17 +452,17 @@ namespace FlyApp
             // textBox21
             // 
             this.textBox21.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox21.Location = new System.Drawing.Point(372, 9);
+            this.textBox21.Location = new System.Drawing.Point(372, 8);
             this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(159, 33);
+            this.textBox21.Size = new System.Drawing.Size(158, 33);
             this.textBox21.TabIndex = 2;
             // 
             // textBox22
             // 
             this.textBox22.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox22.Location = new System.Drawing.Point(20, 9);
+            this.textBox22.Location = new System.Drawing.Point(20, 8);
             this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(87, 33);
+            this.textBox22.Size = new System.Drawing.Size(86, 33);
             this.textBox22.TabIndex = 0;
             // 
             // panel10
@@ -440,20 +478,29 @@ namespace FlyApp
             this.panel10.Size = new System.Drawing.Size(966, 52);
             this.panel10.TabIndex = 13;
             // 
+            // textBox38
+            // 
+            this.textBox38.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox38.Location = new System.Drawing.Point(158, 8);
+            this.textBox38.Name = "textBox38";
+            this.textBox38.Size = new System.Drawing.Size(158, 33);
+            this.textBox38.TabIndex = 5;
+            // 
             // button19
             // 
-            this.button19.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button19.Location = new System.Drawing.Point(813, 5);
+            this.button19.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button19.Location = new System.Drawing.Point(813, 6);
             this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(127, 39);
+            this.button19.Size = new System.Drawing.Size(128, 39);
             this.button19.TabIndex = 4;
             this.button19.Text = "设    定";
             this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
             // button20
             // 
-            this.button20.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button20.Location = new System.Drawing.Point(613, 3);
+            this.button20.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button20.Location = new System.Drawing.Point(614, 3);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(138, 42);
             this.button20.TabIndex = 3;
@@ -463,17 +510,17 @@ namespace FlyApp
             // textBox19
             // 
             this.textBox19.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox19.Location = new System.Drawing.Point(372, 9);
+            this.textBox19.Location = new System.Drawing.Point(372, 8);
             this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(159, 33);
+            this.textBox19.Size = new System.Drawing.Size(158, 33);
             this.textBox19.TabIndex = 2;
             // 
             // textBox20
             // 
             this.textBox20.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox20.Location = new System.Drawing.Point(20, 9);
+            this.textBox20.Location = new System.Drawing.Point(20, 8);
             this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(87, 33);
+            this.textBox20.Size = new System.Drawing.Size(86, 33);
             this.textBox20.TabIndex = 0;
             // 
             // panel9
@@ -489,20 +536,29 @@ namespace FlyApp
             this.panel9.Size = new System.Drawing.Size(966, 52);
             this.panel9.TabIndex = 12;
             // 
+            // textBox37
+            // 
+            this.textBox37.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox37.Location = new System.Drawing.Point(158, 8);
+            this.textBox37.Name = "textBox37";
+            this.textBox37.Size = new System.Drawing.Size(158, 33);
+            this.textBox37.TabIndex = 5;
+            // 
             // button17
             // 
-            this.button17.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button17.Location = new System.Drawing.Point(813, 5);
+            this.button17.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button17.Location = new System.Drawing.Point(813, 6);
             this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(127, 39);
+            this.button17.Size = new System.Drawing.Size(128, 39);
             this.button17.TabIndex = 4;
             this.button17.Text = "设    定";
             this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // button18
             // 
-            this.button18.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button18.Location = new System.Drawing.Point(613, 3);
+            this.button18.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button18.Location = new System.Drawing.Point(614, 3);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(138, 42);
             this.button18.TabIndex = 3;
@@ -512,17 +568,17 @@ namespace FlyApp
             // textBox17
             // 
             this.textBox17.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox17.Location = new System.Drawing.Point(372, 9);
+            this.textBox17.Location = new System.Drawing.Point(372, 8);
             this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(159, 33);
+            this.textBox17.Size = new System.Drawing.Size(158, 33);
             this.textBox17.TabIndex = 2;
             // 
             // textBox18
             // 
             this.textBox18.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox18.Location = new System.Drawing.Point(20, 9);
+            this.textBox18.Location = new System.Drawing.Point(20, 8);
             this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(87, 33);
+            this.textBox18.Size = new System.Drawing.Size(86, 33);
             this.textBox18.TabIndex = 0;
             // 
             // panel8
@@ -533,25 +589,34 @@ namespace FlyApp
             this.panel8.Controls.Add(this.button16);
             this.panel8.Controls.Add(this.textBox15);
             this.panel8.Controls.Add(this.textBox16);
-            this.panel8.Location = new System.Drawing.Point(24, 499);
+            this.panel8.Location = new System.Drawing.Point(24, 498);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(966, 52);
             this.panel8.TabIndex = 11;
             // 
+            // textBox36
+            // 
+            this.textBox36.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox36.Location = new System.Drawing.Point(158, 8);
+            this.textBox36.Name = "textBox36";
+            this.textBox36.Size = new System.Drawing.Size(158, 33);
+            this.textBox36.TabIndex = 5;
+            // 
             // button15
             // 
-            this.button15.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button15.Location = new System.Drawing.Point(813, 5);
+            this.button15.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button15.Location = new System.Drawing.Point(813, 6);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(127, 39);
+            this.button15.Size = new System.Drawing.Size(128, 39);
             this.button15.TabIndex = 4;
             this.button15.Text = "设    定";
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // button16
             // 
-            this.button16.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button16.Location = new System.Drawing.Point(613, 3);
+            this.button16.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button16.Location = new System.Drawing.Point(614, 3);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(138, 42);
             this.button16.TabIndex = 3;
@@ -561,17 +626,17 @@ namespace FlyApp
             // textBox15
             // 
             this.textBox15.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox15.Location = new System.Drawing.Point(372, 9);
+            this.textBox15.Location = new System.Drawing.Point(372, 8);
             this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(159, 33);
+            this.textBox15.Size = new System.Drawing.Size(158, 33);
             this.textBox15.TabIndex = 2;
             // 
             // textBox16
             // 
             this.textBox16.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox16.Location = new System.Drawing.Point(20, 9);
+            this.textBox16.Location = new System.Drawing.Point(20, 8);
             this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(87, 33);
+            this.textBox16.Size = new System.Drawing.Size(86, 33);
             this.textBox16.TabIndex = 0;
             // 
             // panel7
@@ -582,25 +647,34 @@ namespace FlyApp
             this.panel7.Controls.Add(this.button14);
             this.panel7.Controls.Add(this.textBox13);
             this.panel7.Controls.Add(this.textBox14);
-            this.panel7.Location = new System.Drawing.Point(24, 441);
+            this.panel7.Location = new System.Drawing.Point(24, 440);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(966, 52);
             this.panel7.TabIndex = 10;
             // 
+            // textBox35
+            // 
+            this.textBox35.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox35.Location = new System.Drawing.Point(158, 8);
+            this.textBox35.Name = "textBox35";
+            this.textBox35.Size = new System.Drawing.Size(158, 33);
+            this.textBox35.TabIndex = 5;
+            // 
             // button13
             // 
-            this.button13.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button13.Location = new System.Drawing.Point(813, 5);
+            this.button13.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button13.Location = new System.Drawing.Point(813, 6);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(127, 39);
+            this.button13.Size = new System.Drawing.Size(128, 39);
             this.button13.TabIndex = 4;
             this.button13.Text = "设    定";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // button14
             // 
-            this.button14.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button14.Location = new System.Drawing.Point(613, 3);
+            this.button14.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button14.Location = new System.Drawing.Point(614, 3);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(138, 42);
             this.button14.TabIndex = 3;
@@ -610,17 +684,17 @@ namespace FlyApp
             // textBox13
             // 
             this.textBox13.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox13.Location = new System.Drawing.Point(372, 9);
+            this.textBox13.Location = new System.Drawing.Point(372, 8);
             this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(159, 33);
+            this.textBox13.Size = new System.Drawing.Size(158, 33);
             this.textBox13.TabIndex = 2;
             // 
             // textBox14
             // 
             this.textBox14.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox14.Location = new System.Drawing.Point(20, 9);
+            this.textBox14.Location = new System.Drawing.Point(20, 8);
             this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(87, 33);
+            this.textBox14.Size = new System.Drawing.Size(86, 33);
             this.textBox14.TabIndex = 0;
             // 
             // panel6
@@ -631,25 +705,34 @@ namespace FlyApp
             this.panel6.Controls.Add(this.button12);
             this.panel6.Controls.Add(this.textBox11);
             this.panel6.Controls.Add(this.textBox12);
-            this.panel6.Location = new System.Drawing.Point(24, 383);
+            this.panel6.Location = new System.Drawing.Point(24, 384);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(966, 52);
             this.panel6.TabIndex = 9;
             // 
+            // textBox34
+            // 
+            this.textBox34.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox34.Location = new System.Drawing.Point(158, 8);
+            this.textBox34.Name = "textBox34";
+            this.textBox34.Size = new System.Drawing.Size(158, 33);
+            this.textBox34.TabIndex = 5;
+            // 
             // button11
             // 
-            this.button11.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button11.Location = new System.Drawing.Point(813, 5);
+            this.button11.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button11.Location = new System.Drawing.Point(813, 6);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(127, 39);
+            this.button11.Size = new System.Drawing.Size(128, 39);
             this.button11.TabIndex = 4;
             this.button11.Text = "设    定";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button12
             // 
-            this.button12.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button12.Location = new System.Drawing.Point(613, 3);
+            this.button12.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button12.Location = new System.Drawing.Point(614, 3);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(138, 42);
             this.button12.TabIndex = 3;
@@ -659,17 +742,17 @@ namespace FlyApp
             // textBox11
             // 
             this.textBox11.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.Location = new System.Drawing.Point(372, 9);
+            this.textBox11.Location = new System.Drawing.Point(372, 8);
             this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(159, 33);
+            this.textBox11.Size = new System.Drawing.Size(158, 33);
             this.textBox11.TabIndex = 2;
             // 
             // textBox12
             // 
             this.textBox12.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox12.Location = new System.Drawing.Point(20, 9);
+            this.textBox12.Location = new System.Drawing.Point(20, 8);
             this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(87, 33);
+            this.textBox12.Size = new System.Drawing.Size(86, 33);
             this.textBox12.TabIndex = 0;
             // 
             // panel5
@@ -685,20 +768,29 @@ namespace FlyApp
             this.panel5.Size = new System.Drawing.Size(966, 52);
             this.panel5.TabIndex = 8;
             // 
+            // textBox33
+            // 
+            this.textBox33.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox33.Location = new System.Drawing.Point(158, 8);
+            this.textBox33.Name = "textBox33";
+            this.textBox33.Size = new System.Drawing.Size(158, 33);
+            this.textBox33.TabIndex = 5;
+            // 
             // button9
             // 
-            this.button9.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button9.Location = new System.Drawing.Point(813, 5);
+            this.button9.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button9.Location = new System.Drawing.Point(813, 6);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(127, 39);
+            this.button9.Size = new System.Drawing.Size(128, 39);
             this.button9.TabIndex = 4;
             this.button9.Text = "设    定";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button10
             // 
-            this.button10.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button10.Location = new System.Drawing.Point(613, 3);
+            this.button10.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button10.Location = new System.Drawing.Point(614, 3);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(138, 42);
             this.button10.TabIndex = 3;
@@ -708,17 +800,17 @@ namespace FlyApp
             // textBox9
             // 
             this.textBox9.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(372, 9);
+            this.textBox9.Location = new System.Drawing.Point(372, 8);
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(159, 33);
+            this.textBox9.Size = new System.Drawing.Size(158, 33);
             this.textBox9.TabIndex = 2;
             // 
             // textBox10
             // 
             this.textBox10.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(20, 9);
+            this.textBox10.Location = new System.Drawing.Point(20, 8);
             this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(87, 33);
+            this.textBox10.Size = new System.Drawing.Size(86, 33);
             this.textBox10.TabIndex = 0;
             // 
             // panel4
@@ -734,20 +826,29 @@ namespace FlyApp
             this.panel4.Size = new System.Drawing.Size(966, 52);
             this.panel4.TabIndex = 7;
             // 
+            // textBox32
+            // 
+            this.textBox32.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox32.Location = new System.Drawing.Point(158, 8);
+            this.textBox32.Name = "textBox32";
+            this.textBox32.Size = new System.Drawing.Size(158, 33);
+            this.textBox32.TabIndex = 5;
+            // 
             // button7
             // 
-            this.button7.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button7.Location = new System.Drawing.Point(813, 5);
+            this.button7.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button7.Location = new System.Drawing.Point(813, 6);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(127, 39);
+            this.button7.Size = new System.Drawing.Size(128, 39);
             this.button7.TabIndex = 4;
             this.button7.Text = "设    定";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
-            this.button8.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button8.Location = new System.Drawing.Point(613, 3);
+            this.button8.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button8.Location = new System.Drawing.Point(614, 3);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(138, 42);
             this.button8.TabIndex = 3;
@@ -757,17 +858,17 @@ namespace FlyApp
             // textBox7
             // 
             this.textBox7.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(372, 9);
+            this.textBox7.Location = new System.Drawing.Point(372, 8);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(159, 33);
+            this.textBox7.Size = new System.Drawing.Size(158, 33);
             this.textBox7.TabIndex = 2;
             // 
             // textBox8
             // 
             this.textBox8.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(20, 9);
+            this.textBox8.Location = new System.Drawing.Point(20, 8);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(87, 33);
+            this.textBox8.Size = new System.Drawing.Size(86, 33);
             this.textBox8.TabIndex = 0;
             // 
             // panel3
@@ -783,20 +884,29 @@ namespace FlyApp
             this.panel3.Size = new System.Drawing.Size(966, 52);
             this.panel3.TabIndex = 6;
             // 
+            // textBox31
+            // 
+            this.textBox31.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox31.Location = new System.Drawing.Point(158, 8);
+            this.textBox31.Name = "textBox31";
+            this.textBox31.Size = new System.Drawing.Size(158, 33);
+            this.textBox31.TabIndex = 5;
+            // 
             // button5
             // 
-            this.button5.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button5.Location = new System.Drawing.Point(813, 5);
+            this.button5.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button5.Location = new System.Drawing.Point(813, 6);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(127, 39);
+            this.button5.Size = new System.Drawing.Size(128, 39);
             this.button5.TabIndex = 4;
             this.button5.Text = "设    定";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
-            this.button6.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button6.Location = new System.Drawing.Point(613, 3);
+            this.button6.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button6.Location = new System.Drawing.Point(614, 3);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(138, 42);
             this.button6.TabIndex = 3;
@@ -806,17 +916,17 @@ namespace FlyApp
             // textBox5
             // 
             this.textBox5.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(372, 9);
+            this.textBox5.Location = new System.Drawing.Point(372, 8);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(159, 33);
+            this.textBox5.Size = new System.Drawing.Size(158, 33);
             this.textBox5.TabIndex = 2;
             // 
             // textBox6
             // 
             this.textBox6.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(20, 9);
+            this.textBox6.Location = new System.Drawing.Point(20, 8);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(87, 33);
+            this.textBox6.Size = new System.Drawing.Size(86, 33);
             this.textBox6.TabIndex = 0;
             // 
             // panel2
@@ -832,20 +942,29 @@ namespace FlyApp
             this.panel2.Size = new System.Drawing.Size(966, 52);
             this.panel2.TabIndex = 5;
             // 
+            // textBox30
+            // 
+            this.textBox30.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox30.Location = new System.Drawing.Point(158, 12);
+            this.textBox30.Name = "textBox30";
+            this.textBox30.Size = new System.Drawing.Size(158, 33);
+            this.textBox30.TabIndex = 5;
+            // 
             // button3
             // 
-            this.button3.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button3.Location = new System.Drawing.Point(813, 5);
+            this.button3.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button3.Location = new System.Drawing.Point(813, 6);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(127, 39);
+            this.button3.Size = new System.Drawing.Size(128, 39);
             this.button3.TabIndex = 4;
             this.button3.Text = "设    定";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button4.Location = new System.Drawing.Point(613, 3);
+            this.button4.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button4.Location = new System.Drawing.Point(614, 3);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(138, 42);
             this.button4.TabIndex = 3;
@@ -855,24 +974,24 @@ namespace FlyApp
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(372, 9);
+            this.textBox3.Location = new System.Drawing.Point(372, 8);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(159, 33);
+            this.textBox3.Size = new System.Drawing.Size(158, 33);
             this.textBox3.TabIndex = 2;
             // 
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(20, 9);
+            this.textBox4.Location = new System.Drawing.Point(20, 8);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(87, 33);
+            this.textBox4.Size = new System.Drawing.Size(86, 33);
             this.textBox4.TabIndex = 0;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("等线", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label4.Location = new System.Drawing.Point(679, 44);
+            this.label4.Font = new System.Drawing.Font("DengXian", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label4.Location = new System.Drawing.Point(680, 44);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(52, 22);
             this.label4.TabIndex = 5;
@@ -881,7 +1000,7 @@ namespace FlyApp
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("等线", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.Font = new System.Drawing.Font("DengXian", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label3.Location = new System.Drawing.Point(384, 44);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(220, 22);
@@ -891,8 +1010,8 @@ namespace FlyApp
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("等线", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.Location = new System.Drawing.Point(211, 44);
+            this.label2.Font = new System.Drawing.Font("DengXian", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Location = new System.Drawing.Point(212, 44);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(115, 22);
             this.label2.TabIndex = 3;
@@ -901,7 +1020,7 @@ namespace FlyApp
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("等线", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Font = new System.Drawing.Font("DengXian", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.Location = new System.Drawing.Point(54, 44);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(73, 22);
@@ -921,20 +1040,29 @@ namespace FlyApp
             this.panel1.Size = new System.Drawing.Size(966, 52);
             this.panel1.TabIndex = 2;
             // 
+            // textBox29
+            // 
+            this.textBox29.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox29.Location = new System.Drawing.Point(158, 8);
+            this.textBox29.Name = "textBox29";
+            this.textBox29.Size = new System.Drawing.Size(158, 33);
+            this.textBox29.TabIndex = 5;
+            // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button1.Location = new System.Drawing.Point(813, 5);
+            this.button1.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button1.Location = new System.Drawing.Point(813, 6);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(127, 39);
+            this.button1.Size = new System.Drawing.Size(128, 39);
             this.button1.TabIndex = 4;
             this.button1.Text = "设    定";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button2.Location = new System.Drawing.Point(613, 3);
+            this.button2.Font = new System.Drawing.Font("SimHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button2.Location = new System.Drawing.Point(614, 3);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(138, 42);
             this.button2.TabIndex = 3;
@@ -944,137 +1072,25 @@ namespace FlyApp
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(372, 9);
+            this.textBox1.Location = new System.Drawing.Point(372, 8);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(159, 33);
+            this.textBox1.Size = new System.Drawing.Size(158, 33);
             this.textBox1.TabIndex = 2;
             // 
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(20, 9);
+            this.textBox2.Location = new System.Drawing.Point(20, 8);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(87, 33);
+            this.textBox2.Size = new System.Drawing.Size(86, 33);
             this.textBox2.TabIndex = 0;
-            // 
-            // textBox29
-            // 
-            this.textBox29.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox29.Location = new System.Drawing.Point(158, 9);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.Size = new System.Drawing.Size(159, 33);
-            this.textBox29.TabIndex = 5;
-            // 
-            // textBox30
-            // 
-            this.textBox30.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox30.Location = new System.Drawing.Point(158, 12);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.Size = new System.Drawing.Size(159, 33);
-            this.textBox30.TabIndex = 5;
-            // 
-            // textBox31
-            // 
-            this.textBox31.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox31.Location = new System.Drawing.Point(158, 9);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.Size = new System.Drawing.Size(159, 33);
-            this.textBox31.TabIndex = 5;
-            // 
-            // textBox32
-            // 
-            this.textBox32.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox32.Location = new System.Drawing.Point(158, 9);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.Size = new System.Drawing.Size(159, 33);
-            this.textBox32.TabIndex = 5;
-            // 
-            // textBox33
-            // 
-            this.textBox33.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox33.Location = new System.Drawing.Point(158, 9);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.Size = new System.Drawing.Size(159, 33);
-            this.textBox33.TabIndex = 5;
-            // 
-            // textBox34
-            // 
-            this.textBox34.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox34.Location = new System.Drawing.Point(158, 9);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.Size = new System.Drawing.Size(159, 33);
-            this.textBox34.TabIndex = 5;
-            // 
-            // textBox35
-            // 
-            this.textBox35.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox35.Location = new System.Drawing.Point(158, 9);
-            this.textBox35.Name = "textBox35";
-            this.textBox35.Size = new System.Drawing.Size(159, 33);
-            this.textBox35.TabIndex = 5;
-            // 
-            // textBox36
-            // 
-            this.textBox36.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox36.Location = new System.Drawing.Point(158, 9);
-            this.textBox36.Name = "textBox36";
-            this.textBox36.Size = new System.Drawing.Size(159, 33);
-            this.textBox36.TabIndex = 5;
-            // 
-            // textBox37
-            // 
-            this.textBox37.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox37.Location = new System.Drawing.Point(158, 9);
-            this.textBox37.Name = "textBox37";
-            this.textBox37.Size = new System.Drawing.Size(159, 33);
-            this.textBox37.TabIndex = 5;
-            // 
-            // textBox38
-            // 
-            this.textBox38.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox38.Location = new System.Drawing.Point(158, 9);
-            this.textBox38.Name = "textBox38";
-            this.textBox38.Size = new System.Drawing.Size(159, 33);
-            this.textBox38.TabIndex = 5;
-            // 
-            // textBox39
-            // 
-            this.textBox39.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox39.Location = new System.Drawing.Point(158, 9);
-            this.textBox39.Name = "textBox39";
-            this.textBox39.Size = new System.Drawing.Size(159, 33);
-            this.textBox39.TabIndex = 5;
-            // 
-            // textBox40
-            // 
-            this.textBox40.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox40.Location = new System.Drawing.Point(158, 9);
-            this.textBox40.Name = "textBox40";
-            this.textBox40.Size = new System.Drawing.Size(159, 33);
-            this.textBox40.TabIndex = 5;
-            // 
-            // textBox41
-            // 
-            this.textBox41.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox41.Location = new System.Drawing.Point(158, 9);
-            this.textBox41.Name = "textBox41";
-            this.textBox41.Size = new System.Drawing.Size(159, 33);
-            this.textBox41.TabIndex = 23;
-            // 
-            // textBox42
-            // 
-            this.textBox42.Font = new System.Drawing.Font("Calibri", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox42.Location = new System.Drawing.Point(158, 9);
-            this.textBox42.Name = "textBox42";
-            this.textBox42.Size = new System.Drawing.Size(159, 33);
-            this.textBox42.TabIndex = 5;
             // 
             // ModelCycleDesignForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1245, 961);
+            this.ClientSize = new System.Drawing.Size(1245, 954);
             this.Controls.Add(this.MainPanel);
             this.Name = "ModelCycleDesignForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

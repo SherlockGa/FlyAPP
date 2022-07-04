@@ -40,7 +40,7 @@ namespace FlyApp
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("等线", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button1.Font = new System.Drawing.Font("DengXian", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button1.Location = new System.Drawing.Point(289, 424);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
@@ -52,7 +52,7 @@ namespace FlyApp
             // 
             // button4
             // 
-            this.button4.Font = new System.Drawing.Font("等线", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button4.Font = new System.Drawing.Font("DengXian", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button4.Location = new System.Drawing.Point(888, 424);
             this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
@@ -92,7 +92,6 @@ namespace FlyApp
             // pictureBox1
             // 
             this.pictureBox1.ErrorImage = global::FlyApp.Properties.Resources.fly1;
-            this.pictureBox1.Image = global::FlyApp.Properties.Resources.fly1;
             this.pictureBox1.ImageLocation = "D:\\VisualStudioProjects\\FlyApp\\FlyApp\\Resources\\fly.jpg";
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
