@@ -12,6 +12,8 @@ namespace FlyApp
 {
     public partial class MainForm : Form
     {
+        public ModelCycleDesignForm modelCycleDesignForm;
+        //public PlannerCamDesignForm plannerCamDesignForm;
         public MainForm()
         {
             InitializeComponent();
@@ -19,7 +21,7 @@ namespace FlyApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ModelCycleDesignForm modelCycleDesignForm = new ModelCycleDesignForm();
+            modelCycleDesignForm = new ModelCycleDesignForm();
             modelCycleDesignForm.Show();
         }
 
@@ -29,8 +31,8 @@ namespace FlyApp
 
         private void button4_Click(object sender, EventArgs e)
         {
-            PlannerCamDesignForm plannerCamDesignForm = new PlannerCamDesignForm();
-            plannerCamDesignForm.Show();
+            //plannerCamDesignForm = new PlannerCamDesignForm();
+            //plannerCamDesignForm.Show();
         }
 
        
