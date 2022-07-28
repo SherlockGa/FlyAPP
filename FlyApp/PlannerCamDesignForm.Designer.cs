@@ -31,14 +31,17 @@ namespace FlyApp
         {
             this.MainPanel = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.ExitButton = new System.Windows.Forms.Button();
-            this.MotionButton = new System.Windows.Forms.Button();
-            this.ImageButton = new System.Windows.Forms.Button();
-            this.DataButton1 = new System.Windows.Forms.Button();
+            this.theta = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.alpha1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.alpha2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.S = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.V = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Pressure3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Pressure4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ExitButton = new System.Windows.Forms.Button();
+            this.MotionButton = new System.Windows.Forms.Button();
+            this.ImageButton = new System.Windows.Forms.Button();
+            this.DataButton1 = new System.Windows.Forms.Button();
             this.MainPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -60,10 +63,13 @@ namespace FlyApp
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.theta,
             this.alpha1,
             this.alpha2,
             this.S,
-            this.V});
+            this.V,
+            this.Pressure3,
+            this.Pressure4});
             this.dataGridView1.Location = new System.Drawing.Point(276, 97);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
@@ -71,54 +77,19 @@ namespace FlyApp
             this.dataGridView1.Size = new System.Drawing.Size(768, 621);
             this.dataGridView1.TabIndex = 8;
             // 
-            // ExitButton
+            // theta
             // 
-            this.ExitButton.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.ExitButton.Location = new System.Drawing.Point(41, 563);
-            this.ExitButton.Name = "ExitButton";
-            this.ExitButton.Size = new System.Drawing.Size(171, 59);
-            this.ExitButton.TabIndex = 7;
-            this.ExitButton.Text = "退    出";
-            this.ExitButton.UseVisualStyleBackColor = true;
-            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
-            // 
-            // MotionButton
-            // 
-            this.MotionButton.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.MotionButton.Location = new System.Drawing.Point(41, 391);
-            this.MotionButton.Name = "MotionButton";
-            this.MotionButton.Size = new System.Drawing.Size(171, 59);
-            this.MotionButton.TabIndex = 6;
-            this.MotionButton.Text = "运动仿真";
-            this.MotionButton.UseVisualStyleBackColor = true;
-            // 
-            // ImageButton
-            // 
-            this.ImageButton.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.ImageButton.Location = new System.Drawing.Point(41, 229);
-            this.ImageButton.Name = "ImageButton";
-            this.ImageButton.Size = new System.Drawing.Size(171, 59);
-            this.ImageButton.TabIndex = 5;
-            this.ImageButton.Text = "图形输出";
-            this.ImageButton.UseVisualStyleBackColor = true;
-            // 
-            // DataButton1
-            // 
-            this.DataButton1.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.DataButton1.Location = new System.Drawing.Point(41, 78);
-            this.DataButton1.Name = "DataButton1";
-            this.DataButton1.Size = new System.Drawing.Size(171, 59);
-            this.DataButton1.TabIndex = 2;
-            this.DataButton1.Text = "数据输出";
-            this.DataButton1.UseVisualStyleBackColor = true;
-            this.DataButton1.Click += new System.EventHandler(this.DataButton1_Click);
+            this.theta.HeaderText = "theta";
+            this.theta.MinimumWidth = 8;
+            this.theta.Name = "theta";
+            this.theta.Width = 150;
             // 
             // alpha1
             // 
             this.alpha1.HeaderText = "alpha1";
             this.alpha1.MinimumWidth = 8;
             this.alpha1.Name = "alpha1";
-            this.alpha1.Width = 130;
+            this.alpha1.Width = 150;
             // 
             // alpha2
             // 
@@ -141,6 +112,65 @@ namespace FlyApp
             this.V.Name = "V";
             this.V.Width = 130;
             // 
+            // Pressure3
+            // 
+            this.Pressure3.HeaderText = "Pressure3";
+            this.Pressure3.MinimumWidth = 8;
+            this.Pressure3.Name = "Pressure3";
+            this.Pressure3.ReadOnly = true;
+            this.Pressure3.Width = 150;
+            // 
+            // Pressure4
+            // 
+            this.Pressure4.HeaderText = "Pressure4";
+            this.Pressure4.MinimumWidth = 8;
+            this.Pressure4.Name = "Pressure4";
+            this.Pressure4.ReadOnly = true;
+            this.Pressure4.Width = 150;
+            // 
+            // ExitButton
+            // 
+            this.ExitButton.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.ExitButton.Location = new System.Drawing.Point(41, 710);
+            this.ExitButton.Name = "ExitButton";
+            this.ExitButton.Size = new System.Drawing.Size(171, 59);
+            this.ExitButton.TabIndex = 7;
+            this.ExitButton.Text = "退    出";
+            this.ExitButton.UseVisualStyleBackColor = true;
+            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
+            // 
+            // MotionButton
+            // 
+            this.MotionButton.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.MotionButton.Location = new System.Drawing.Point(41, 297);
+            this.MotionButton.Name = "MotionButton";
+            this.MotionButton.Size = new System.Drawing.Size(171, 59);
+            this.MotionButton.TabIndex = 6;
+            this.MotionButton.Text = "运动仿真";
+            this.MotionButton.UseVisualStyleBackColor = true;
+            // 
+            // ImageButton
+            // 
+            this.ImageButton.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.ImageButton.Location = new System.Drawing.Point(41, 504);
+            this.ImageButton.Name = "ImageButton";
+            this.ImageButton.Size = new System.Drawing.Size(171, 59);
+            this.ImageButton.TabIndex = 5;
+            this.ImageButton.Text = "导出数据";
+            this.ImageButton.UseVisualStyleBackColor = true;
+            this.ImageButton.Click += new System.EventHandler(this.ImageButton_Click);
+            // 
+            // DataButton1
+            // 
+            this.DataButton1.Font = new System.Drawing.Font("黑体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.DataButton1.Location = new System.Drawing.Point(41, 108);
+            this.DataButton1.Name = "DataButton1";
+            this.DataButton1.Size = new System.Drawing.Size(171, 59);
+            this.DataButton1.TabIndex = 2;
+            this.DataButton1.Text = "数据输出";
+            this.DataButton1.UseVisualStyleBackColor = true;
+            this.DataButton1.Click += new System.EventHandler(this.DataButton1_Click);
+            // 
             // PlannerCamDesignForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
@@ -149,7 +179,7 @@ namespace FlyApp
             this.Controls.Add(this.MainPanel);
             this.Name = "PlannerCamDesignForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "平面凸轮机构设计";
+            this.Text = "计算结果数据输出";
             this.Load += new System.EventHandler(this.PlannerCamDesignForm_Load);
             this.MainPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -165,9 +195,12 @@ namespace FlyApp
         private System.Windows.Forms.Button ImageButton;
         private System.Windows.Forms.Button DataButton1;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn theta;
         private System.Windows.Forms.DataGridViewTextBoxColumn alpha1;
         private System.Windows.Forms.DataGridViewTextBoxColumn alpha2;
         private System.Windows.Forms.DataGridViewTextBoxColumn S;
         private System.Windows.Forms.DataGridViewTextBoxColumn V;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Pressure3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Pressure4;
     }
 }

@@ -48,3 +48,4 @@ D:\Documents\WeChat Files\wxid_twdzwfdwhzk322\FileStorage\MsgAttach\fb9b5f656c6d
 D:\Documents\WeChat Files\wxid_twdzwfdwhzk322\FileStorage\MsgAttach\fb9b5f656c6da19f77f8140109f58fdd\File\2022-07\FlyAPP\FlyApp\obj\Debug\FlyApp.csproj.CoreCompileInputs.cache
 D:\Documents\WeChat Files\wxid_twdzwfdwhzk322\FileStorage\MsgAttach\fb9b5f656c6da19f77f8140109f58fdd\File\2022-07\FlyAPP\FlyApp\obj\Debug\FlyApp.exe
 D:\Documents\WeChat Files\wxid_twdzwfdwhzk322\FileStorage\MsgAttach\fb9b5f656c6da19f77f8140109f58fdd\File\2022-07\FlyAPP\FlyApp\obj\Debug\FlyApp.pdb
+D:\ve450Git\FlyAPP\FlyApp\obj\Debug\FlyApp.BasicParamInput.resources

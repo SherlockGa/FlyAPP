@@ -31,7 +31,6 @@ namespace FlyApp
         {
             this.MainPanel = new System.Windows.Forms.Panel();
             this.button29 = new System.Windows.Forms.Button();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.label5 = new System.Windows.Forms.Label();
             this.ExitButton = new System.Windows.Forms.Button();
             this.ShowButton = new System.Windows.Forms.Button();
@@ -125,7 +124,6 @@ namespace FlyApp
             this.button1 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.MainPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.panel14.SuspendLayout();
             this.panel13.SuspendLayout();
             this.panel12.SuspendLayout();
@@ -145,7 +143,6 @@ namespace FlyApp
             // MainPanel
             // 
             this.MainPanel.Controls.Add(this.button29);
-            this.MainPanel.Controls.Add(this.numericUpDown1);
             this.MainPanel.Controls.Add(this.label5);
             this.MainPanel.Controls.Add(this.ExitButton);
             this.MainPanel.Controls.Add(this.ShowButton);
@@ -176,7 +173,7 @@ namespace FlyApp
             // 
             // button29
             // 
-            this.button29.Location = new System.Drawing.Point(1036, 625);
+            this.button29.Location = new System.Drawing.Point(1036, 598);
             this.button29.Name = "button29";
             this.button29.Size = new System.Drawing.Size(171, 60);
             this.button29.TabIndex = 23;
@@ -184,38 +181,14 @@ namespace FlyApp
             this.button29.UseVisualStyleBackColor = true;
             this.button29.Click += new System.EventHandler(this.button29_Click);
             // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.Location = new System.Drawing.Point(1069, 103);
-            this.numericUpDown1.Maximum = new decimal(new int[] {
-            14,
-            0,
-            0,
-            0});
-            this.numericUpDown1.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(138, 31);
-            this.numericUpDown1.TabIndex = 22;
-            this.numericUpDown1.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("等线", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label5.Location = new System.Drawing.Point(1008, 44);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(136, 22);
+            this.label5.Size = new System.Drawing.Size(0, 22);
             this.label5.TabIndex = 21;
-            this.label5.Text = "输入总段数：";
             // 
             // ExitButton
             // 
@@ -238,11 +211,11 @@ namespace FlyApp
             // 
             // InputButton
             // 
-            this.InputButton.Location = new System.Drawing.Point(1036, 192);
+            this.InputButton.Location = new System.Drawing.Point(1036, 143);
             this.InputButton.Name = "InputButton";
             this.InputButton.Size = new System.Drawing.Size(171, 60);
             this.InputButton.TabIndex = 18;
-            this.InputButton.Text = "设置总体参数";
+            this.InputButton.Text = "设置机构参数";
             this.InputButton.UseVisualStyleBackColor = true;
             this.InputButton.Click += new System.EventHandler(this.InputButton_Click);
             // 
@@ -1112,7 +1085,6 @@ namespace FlyApp
             this.Load += new System.EventHandler(this.ModelCycleDesignForm_Load);
             this.MainPanel.ResumeLayout(false);
             this.MainPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.panel14.ResumeLayout(false);
             this.panel14.PerformLayout();
             this.panel13.ResumeLayout(false);
@@ -1198,7 +1170,6 @@ namespace FlyApp
         private System.Windows.Forms.Button ShowButton;
         private System.Windows.Forms.Button InputButton;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.TextBox textBox27;
         private System.Windows.Forms.TextBox textBox25;
         private System.Windows.Forms.TextBox textBox23;

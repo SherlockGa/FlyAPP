@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -66,14 +67,47 @@ namespace FlyApp
                 foreach (State s in analysis.states)
                 {
                     int index = dataGridView1.Rows.Add();
-                    dataGridView1.Rows[index].Cells[0].Value = s.alpha1;
-                    dataGridView1.Rows[index].Cells[1].Value = s.alpha2;
+                    dataGridView1.Rows[index].Cells[0].Value = index*0.5;
+                    dataGridView1.Rows[index].Cells[1].Value = s.alpha1;
+                    dataGridView1.Rows[index].Cells[2].Value = s.alpha2;
+                    dataGridView1.Rows[index].Cells[3].Value = s.abc;
+                    dataGridView1.Rows[index].Cells[4].Value = s.cdg;
+                    dataGridView1.Rows[index].Cells[5].Value = s.agd;
+                    dataGridView1.Rows[index].Cells[6].Value = s.ahm;
                 }
             }
             else
             {
                 MessageBox.Show("Bad: This should not happen. Something is wrong with the restrictions.", "No solution/ Multi solution Error");
             }
+        }
+
+        private void ImageButton_Click(object sender, EventArgs e)
+        {
+            string localFilePath = "";
+            SaveFileDialog sfd = new SaveFileDialog();
+            sfd.Filter = "Execl files (*.csv)|*.csv";
+            if (sfd.ShowDialog() == DialogResult.OK)
+            {
+                localFilePath = sfd.FileName.ToString();
+            }
+            using (FileStream fs = new FileStream(localFilePath, FileMode.Create, FileAccess.Write))
+            {
+                StreamWriter sw = new StreamWriter(fs);
+                foreach (DataGridViewRow row in dataGridView1.Rows)
+                {
+                    string line = "";
+                    foreach (DataGridViewCell cell in row.Cells)
+                    {
+                        if (cell.Value == null) break;
+                        line += cell.Value.ToString();
+                        line += ",";
+                    }
+                    sw.WriteLine(line);
+                }
+                sw.Close();
+            }
+            
         }
     }
 }

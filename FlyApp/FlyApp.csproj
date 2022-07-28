@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Analysis.cs" />
+    <Compile Include="BasicParamInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasicParamInput.Designer.cs">
+      <DependentUpon>BasicParamInput.cs</DependentUpon>
+    </Compile>
     <Compile Include="Mechanism.cs" />
     <Compile Include="PlannerCamDesignForm.cs">
       <SubType>Form</SubType>
@@ -69,6 +75,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="State.cs" />
+    <EmbeddedResource Include="BasicParamInput.resx">
+      <DependentUpon>BasicParamInput.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PlannerCamDesignForm.resx">
       <DependentUpon>PlannerCamDesignForm.cs</DependentUpon>
     </EmbeddedResource>

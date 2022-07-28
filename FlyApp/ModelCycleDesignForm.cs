@@ -19,6 +19,7 @@ namespace FlyApp
         public Mechanism mechanism;
         public List<(int formula, double h, double beta)> parameter_list_x;
         public List<(int formula, double h, double beta)> parameter_list_y;
+        public (double x, double y) Fpoint;
         private static double d2r(double degrees)
         {
             return degrees / 180 * Math.PI;
@@ -33,22 +34,22 @@ namespace FlyApp
         }
         private void ModelCycleDesignForm_Load(object sender, EventArgs e)
         {
-            comboBox1.DataSource = new List<int> { 1, 2 };
-            comboBox2.DataSource = new List<int> { 1, 2 };
-            comboBox3.DataSource = new List<int> { 1, 2 };
-            comboBox4.DataSource = new List<int> { 1, 2 };
-            comboBox5.DataSource = new List<int> { 1, 2 };
-            comboBox6.DataSource = new List<int> { 1, 2 };
-            comboBox7.DataSource = new List<int> { 1, 2 };
-            comboBox8.DataSource = new List<int> { 1, 2 };
-            comboBox9.DataSource = new List<int> { 1, 2 };
-            comboBox10.DataSource = new List<int> { 1, 2 };
-            comboBox11.DataSource = new List<int> { 1, 2 };
-            comboBox12.DataSource = new List<int> { 1, 2 };
-            comboBox13.DataSource = new List<int> { 1, 2 };
-            comboBox14.DataSource = new List<int> { 1, 2 };
+            comboBox1.DataSource = new List<string> { "3-4-5", "4-5-6-7" };
+            comboBox2.DataSource = new List<string> { "3-4-5", "4-5-6-7" };
+            comboBox3.DataSource = new List<string> { "3-4-5", "4-5-6-7" };
+            comboBox4.DataSource = new List<string> { "3-4-5", "4-5-6-7" };
+            comboBox5.DataSource = new List<string> { "3-4-5", "4-5-6-7" };
+            comboBox6.DataSource = new List<string> { "3-4-5", "4-5-6-7" };
+            comboBox7.DataSource = new List<string> { "3-4-5", "4-5-6-7" };
+            comboBox8.DataSource = new List<string> { "3-4-5", "4-5-6-7" };
+            comboBox9.DataSource = new List<string> { "3-4-5", "4-5-6-7" };
+            comboBox10.DataSource = new List<string> { "3-4-5", "4-5-6-7" };
+            comboBox11.DataSource = new List<string> { "3-4-5", "4-5-6-7" };
+            comboBox12.DataSource = new List<string> { "3-4-5", "4-5-6-7" };
+            comboBox13.DataSource = new List<string> { "3-4-5", "4-5-6-7" };
+            comboBox14.DataSource = new List<string> { "3-4-5", "4-5-6-7" };
 
-            mechanism = new Mechanism();
+            //mechanism = new Mechanism();
             parameter_list_x = new List<(int formula, double h, double beta)>();
             parameter_list_y = new List<(int formula, double h, double beta)>();
         }
@@ -312,11 +313,7 @@ namespace FlyApp
             parameter_list_y.Add((f, h, d2r(beta)));
         }
 
-        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
-        {
-            number_of_angles = (int)numericUpDown1.Value;
-        }
-
+        
         /* ------------------------------------------------------------------------------------*/
         /* -------------------------------------- Input -----------------------------------*/
         /* ------------------------------------------------------------------------------------*/
@@ -330,7 +327,8 @@ namespace FlyApp
         }
         private void InputButton_Click(object sender, EventArgs e)
         {
-           
+            BasicParamInput basicParamInput = new BasicParamInput(this);
+            basicParamInput.Show();
         }
 
     }
