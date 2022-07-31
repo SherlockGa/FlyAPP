@@ -208,6 +208,7 @@ namespace FlyApp
             this.ShowButton.TabIndex = 19;
             this.ShowButton.Text = "线 图 表 示";
             this.ShowButton.UseVisualStyleBackColor = true;
+            this.ShowButton.Click += new System.EventHandler(this.ShowButton_Click);
             // 
             // InputButton
             // 

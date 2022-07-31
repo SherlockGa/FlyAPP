@@ -74,6 +74,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SketchDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SketchDisplay.Designer.cs">
+      <DependentUpon>SketchDisplay.cs</DependentUpon>
+    </Compile>
     <Compile Include="State.cs" />
     <EmbeddedResource Include="BasicParamInput.resx">
       <DependentUpon>BasicParamInput.cs</DependentUpon>
@@ -91,6 +97,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SketchDisplay.resx">
+      <DependentUpon>SketchDisplay.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

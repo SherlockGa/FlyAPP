@@ -331,5 +331,10 @@ namespace FlyApp
             basicParamInput.Show();
         }
 
+        private void ShowButton_Click(object sender, EventArgs e)
+        {
+            SketchDisplay sketchDisplayForm = new SketchDisplay(this);
+            sketchDisplayForm.Show();
+        }
     }
 }
