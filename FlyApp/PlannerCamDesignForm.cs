@@ -30,7 +30,7 @@ namespace FlyApp
         private void PlannerCamDesignForm_Load(object sender, EventArgs e)
         {
             //inputForm = (ModelCycleDesignForm) this.Owner;
-            analysis = new Analysis(inputForm.parameter_list_x, inputForm.parameter_list_y, inputForm.mechanism, d2r(0.5), (392, 160));
+            analysis = new Analysis(inputForm.parameter_list_x, inputForm.parameter_list_y, inputForm.mechanism, d2r(0.5), inputForm.Fpoint);
 
             validResultFlag = true;
             try
@@ -39,20 +39,17 @@ namespace FlyApp
             }
             catch (NoSolutionException er)
             {
-                Console.WriteLine(er.Message);
+                //Console.WriteLine(er.Message);
                 validResultFlag=false;
             }
             catch (MultipleSolutionException er)
             {
-                Console.WriteLine(er.Message);
-                Console.WriteLine("Bad: This should not happen. Something is wrong with the restrictions.");
+                //Console.WriteLine(er.Message);
+                //Console.WriteLine("Bad: This should not happen. Something is wrong with the restrictions.");
                 validResultFlag = false;
             }
 
-            Console.WriteLine("States Count {0}", analysis.states.Count);
-            int x = 20;
-            Console.WriteLine("State " + x + " Alpha1: " + analysis.states[x].alpha1 * 180 / Math.PI);
-            Console.WriteLine("State " + x + " Alpha2: " + analysis.states[x].alpha2 * 180 / Math.PI);
+            
         }
         private void ExitButton_Click(object sender, EventArgs e)
         {

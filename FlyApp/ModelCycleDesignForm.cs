@@ -24,6 +24,10 @@ namespace FlyApp
         {
             return degrees / 180 * Math.PI;
         }
+        private static double r2d(double angle)
+        {
+            return angle / Math.PI * 180;
+        }
         /* ------------------------------------------------------------------------------------*/
         /* -------------------------------------- Load Form -----------------------------------*/
         /* ------------------------------------------------------------------------------------*/
@@ -319,7 +323,11 @@ namespace FlyApp
         /* ------------------------------------------------------------------------------------*/
         private void button29_Click(object sender, EventArgs e)
         {
-           
+            if (checkAngleSum() == false)
+            {
+                MessageBox.Show("所有段的角度和须为360度 ", "错误");
+                return;
+            }
             // show result form
             PlannerCamDesignForm resultForm = new PlannerCamDesignForm(this);
             resultForm.Visible = true;
@@ -333,8 +341,31 @@ namespace FlyApp
 
         private void ShowButton_Click(object sender, EventArgs e)
         {
+            if(checkAngleSum() == false)
+            {
+                MessageBox.Show("所有段的角度和须为360度 " , "错误");
+                return;
+            }
             SketchDisplay sketchDisplayForm = new SketchDisplay(this);
             sketchDisplayForm.Show();
+        }
+        private Boolean checkAngleSum()
+        {
+            double xSum = 0;
+            double ySum = 0;
+            foreach ((int formula, double h, double beta) x in parameter_list_x)
+            {
+                xSum += r2d(x.beta);
+            }
+            foreach ((int formula, double h, double beta) y in parameter_list_y)
+            {
+                ySum += r2d(y.beta);
+            }
+            if(Math.Abs(xSum-360)<1 && Math.Abs(ySum - 360) < 1)
+            {
+                return true;
+            }
+            return false;
         }
     }
 }

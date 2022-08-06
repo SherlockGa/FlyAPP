@@ -1,0 +1,15 @@
+D:\ve450Git\FlyAPP\FlyApp\bin\Release\FlyApp.exe.config
+D:\ve450Git\FlyAPP\FlyApp\bin\Release\FlyApp.exe
+D:\ve450Git\FlyAPP\FlyApp\bin\Release\FlyApp.pdb
+D:\ve450Git\FlyAPP\FlyApp\obj\Release\FlyApp.csproj.AssemblyReference.cache
+D:\ve450Git\FlyAPP\FlyApp\obj\Release\FlyApp.csproj.SuggestedBindingRedirects.cache
+D:\ve450Git\FlyAPP\FlyApp\obj\Release\FlyApp.BasicParamInput.resources
+D:\ve450Git\FlyAPP\FlyApp\obj\Release\FlyApp.PlannerCamDesignForm.resources
+D:\ve450Git\FlyAPP\FlyApp\obj\Release\FlyApp.MainForm.resources
+D:\ve450Git\FlyAPP\FlyApp\obj\Release\FlyApp.ModelCycleDesignForm.resources
+D:\ve450Git\FlyAPP\FlyApp\obj\Release\FlyApp.Properties.Resources.resources
+D:\ve450Git\FlyAPP\FlyApp\obj\Release\FlyApp.SketchDisplay.resources
+D:\ve450Git\FlyAPP\FlyApp\obj\Release\FlyApp.csproj.GenerateResource.cache
+D:\ve450Git\FlyAPP\FlyApp\obj\Release\FlyApp.csproj.CoreCompileInputs.cache
+D:\ve450Git\FlyAPP\FlyApp\obj\Release\FlyApp.exe
+D:\ve450Git\FlyAPP\FlyApp\obj\Release\FlyApp.pdb

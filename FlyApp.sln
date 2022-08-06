@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32510.428
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyApp", "FlyApp\FlyApp.csproj", "{A3D14670-DCED-483E-B2E5-464C015C4C7B}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{929065BE-B339-4DB4-942E-D9B04AF83148}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,8 @@ Global
 		{A3D14670-DCED-483E-B2E5-464C015C4C7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3D14670-DCED-483E-B2E5-464C015C4C7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3D14670-DCED-483E-B2E5-464C015C4C7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{929065BE-B339-4DB4-942E-D9B04AF83148}.Debug|Any CPU.ActiveCfg = Debug
+		{929065BE-B339-4DB4-942E-D9B04AF83148}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
